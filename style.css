@@ -1,8 +1,16 @@
 /* ============================================================
    SCHÖNheitlich – Stylesheet
    Farben: Olivgrün #9BAE51, Warmgrau #66615B, Creme #FFEBCB
-   Schrift: Montserrat (Google Fonts)
+   Schrift: Montserrat (Google Fonts) + biloxi-script für Überschriften
    ============================================================ */
+
+@font-face {
+  font-family: 'biloxi-script';
+  src: url('images/biloxi-script.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -102,7 +110,7 @@ a:hover { color: var(--green-dark); }
 .hero {
   position: relative;
   min-height: 70vh;
-  background: var(--gray) url('images/wakeup.jpg') center/cover no-repeat;
+  background: var(--gray) url('images/shop.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -123,10 +131,11 @@ a:hover { color: var(--green-dark); }
 }
 
 .hero-content h1 {
-  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-family: 'biloxi-script', 'Dancing Script', cursive;
+  font-size: clamp(3rem, 7vw, 5rem);
   font-weight: 300;
-  letter-spacing: 3px;
-  text-transform: uppercase;
+  letter-spacing: normal;
+  text-transform: none;
   margin-bottom: 36px;
 }
 
@@ -189,11 +198,12 @@ a:hover { color: var(--green-dark); }
 .section-dark   { background: var(--gray); color: var(--white); }
 
 .section h2 {
-  font-size: 1.8rem;
-  font-weight: 600;
+  font-family: 'biloxi-script', 'Dancing Script', cursive;
+  font-size: 3rem;
+  font-weight: 300;
   color: var(--gray);
   margin-bottom: 20px;
-  letter-spacing: 1px;
+  letter-spacing: normal;
 }
 
 .section-dark h2 { color: var(--white); }
@@ -222,11 +232,12 @@ a:hover { color: var(--green-dark); }
 /* ── QUOTE ── */
 .quote-section { text-align: center; }
 blockquote {
-  font-size: 1.3rem;
+  font-family: 'biloxi-script', 'Dancing Script', cursive;
+  font-size: 2.2rem;
   font-weight: 300;
-  font-style: italic;
-  letter-spacing: 0.5px;
-  line-height: 1.8;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
   max-width: 700px;
   margin: 0 auto;
 }
@@ -402,10 +413,11 @@ blockquote cite {
   color: var(--white);
 }
 .page-header-img h1 {
-  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-family: 'biloxi-script', 'Dancing Script', cursive;
+  font-size: clamp(2.5rem, 5vw, 4rem);
   font-weight: 300;
-  letter-spacing: 3px;
-  text-transform: uppercase;
+  letter-spacing: normal;
+  text-transform: none;
   margin-bottom: 8px;
   color: var(--white);
 }
