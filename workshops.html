@@ -13,7 +13,10 @@
 
   <nav class="navbar">
     <div class="nav-container">
-      <a href="index.html" class="nav-logo">SCHÖN<span>heitlich</span></a>
+      <a href="index.html" class="nav-logo">
+        <img src="images/logo-nav.svg" alt="SCHÖNheitlich Logo" onerror="this.style.display='none';this.nextElementSibling.style.display='inline'" />
+        <span class="logo-fallback">SCHÖN<span style="color:var(--green)">heitlich</span></span>
+      </a>
       <button class="nav-toggle" onclick="toggleMenu()">☰</button>
       <ul class="nav-links" id="navLinks">
         <li><a href="behandlungen.html">Organic Treatments</a></li>
@@ -26,10 +29,10 @@
     </div>
   </nav>
 
-  <div class="page-header">
+  <div class="page-header-img"><div class="overlay"></div><div class="page-header-content">
     <h1>Workshops</h1>
     <p>Lernen mit Spaß und guter Laune</p>
-  </div>
+  </div></div>
 
   <section class="section section-light">
     <div class="container">
@@ -63,6 +66,16 @@
       <div style="margin-top:48px; text-align:center;">
         <a href="mailto:info@schoenheitlich.de?subject=Workshop Anfrage" class="btn btn-primary">Workshop anfragen</a>
       </div>
+    </div>
+  </section>
+
+  <!-- GOOGLE MAPS -->
+  <section class="map-section">
+    <div class="container">
+      <h2>So finden Sie uns</h2>
+    </div>
+    <div class="map-wrapper">
+      <iframe src="https://maps.google.com/maps?q=R%C3%B6merberg+5A%2C+65366+Geisenheim%2C+Deutschland&output=embed&z=15&hl=de" loading="lazy" title="SCHÖNheitlich auf Google Maps"></iframe>
     </div>
   </section>
 
