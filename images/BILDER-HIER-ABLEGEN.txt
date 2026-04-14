@@ -1,0 +1,11 @@
+Legen Sie Ihre Bilder in diesen Ordner!
+
+Erwartete Dateinamen (von der alten Website):
+- about-me-1.jpg       → Foto von Carmen (Über mich Seite + Startseite)
+- treatments-1-1.jpg   → Foto für Treatments
+- makeup-1.jpg         → Foto für Makeup
+- products-1-1.jpg     → Foto für Produkte
+- workshops-1.jpg      → Foto für Workshops
+- hero.jpg             → Großes Hintergrundbild auf der Startseite
+
+Bilder können Sie einfach hier hineinziehen (Drag & Drop) auf GitHub.
