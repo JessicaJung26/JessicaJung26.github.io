@@ -314,6 +314,32 @@ blockquote cite {
   color: var(--green);
   font-weight: 500;
 }
+.service-card .desc {
+  font-size: 0.88rem;
+  color: #666;
+  margin: 10px 0 12px;
+  line-height: 1.5;
+}
+.service-card .price {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--gray);
+  margin-top: 4px;
+}
+.service-card .price-note {
+  display: block;
+  font-size: 0.78rem;
+  color: #888;
+  margin-top: 3px;
+}
+.service-card .includes {
+  margin: 10px 0 12px;
+  padding-left: 18px;
+  font-size: 0.82rem;
+  color: #666;
+  line-height: 1.6;
+}
 
 /* ── CATEGORY TITLE ── */
 .category-title {
@@ -344,6 +370,17 @@ blockquote cite {
 }
 .product-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
 
+.product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  object-position: center;
+  padding: 12px;
+  background: var(--cream);
+  border-radius: 3px;
+  margin-bottom: 20px;
+  display: block;
+}
 .product-card h3 {
   font-size: 1.1rem;
   font-weight: 700;
